@@ -6,7 +6,7 @@ model = pickle.load(open('rf_healthcare.pkl', 'rb'))
 
 def welcome():
     st.title(":green[Welcome to Homepage! 👋]")
-    st.header(":blue[Car Price Prediction :car]")
+    st.header(":blue[Healthcare Diabetic Prediction]")
     st.write('By: :red[Bharathkumar M S]')
 
     st.write(" :green[For Prediction select page to 'Prediction' in side bar]")
@@ -53,3 +53,4 @@ if page == 'Welcome':
     welcome()
 elif page == 'Prediction':
     submit()
+
