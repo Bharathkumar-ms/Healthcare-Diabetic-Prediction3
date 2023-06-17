@@ -4,5 +4,6 @@ scikit-learn
 sklearn
 numpy
 pandas
+pickle5
 pickle
 
