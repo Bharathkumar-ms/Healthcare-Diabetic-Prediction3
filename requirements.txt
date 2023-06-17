@@ -5,5 +5,4 @@ sklearn
 numpy
 pandas
 pickle5
-pickle
 
